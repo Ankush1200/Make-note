@@ -1,16 +1,10 @@
 # notesapp
 
-A new Flutter project.
 
-## Getting Started
+Our notes app is a user-friendly mobile application created with Flutter and Dart, seamlessly integrated with Firebase for a secure and efficient experience. It offers features such as easy sign-up, login, and password recovery to ensure smooth user onboarding. Once logged in, users can effortlessly create, edit, and delete notes
 
-This project is a starting point for a Flutter application.
+<div style=align-items: center;">
+  <img width=200px height=450px src="https://github.com/Ankush1200/Make-note/blob/master/1.jpg">
+</div>
+  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
