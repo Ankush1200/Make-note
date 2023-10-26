@@ -1,10 +1,9 @@
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:notesapp/firebase_options.dart';
-import 'package:notesapp/note_screen/home_screen.dart';
-import 'package:notesapp/manage_user/login_page.dart';
+import 'package:notesapp/manage_user/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +24,8 @@ class _MyAppState extends State<MyApp> {
     return GetMaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home:FirebaseAuth.instance.currentUser!=null? const MyHomePage():const LoginPage(),
+      // home:FirebaseAuth.instance.currentUser!=null? const MyHomePage():const LoginPage(),
+      home:const SplashScreen(),
     );
   }
 }
